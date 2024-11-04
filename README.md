@@ -7,7 +7,7 @@ Python server's response.
 
 ## Running the Code   
 
-In one server, run `go run cmd/main.go`. This will start up an HTTP server on
-port 50052. Make a GET request to `localhost:50052` and this should print
-`Hello, Dork!`, or similar.
+In one terminal, run `go run cmd/main.go`. This will start up an HTTP server on
+port 50052. In another terminal, make a GET request to `localhost:50052` and
+this should print "Hello, Dork!", or similar.
 
